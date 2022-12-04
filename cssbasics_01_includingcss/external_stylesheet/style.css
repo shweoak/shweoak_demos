@@ -1,0 +1,15 @@
+/* 
+Define styles in this CSS file.
+File must always be named with extension "css".
+No need to include style tag here.
+Just write selector and rules
+*/
+
+h1 {
+  color: gray;
+  font-weight: normal;
+}
+
+p {
+  color: blue;
+}

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CSS Selectors</title>
+    
+  <!-- include external stylesheet with link tag -->
+  <link href="https://fonts.googleapis.com/css?family=Arapey|Source+Serif+Pro&display=swap" rel="stylesheet">
+  <link href="style.css" rel=stylesheet type="text/css">
+</head>
+<body>
+    <section id="page1" class="cover">
+        <div class="content">
+            <h2>Shwe Oak (Htet Thu Win)</h2>
+            <h1>CSS Basics: Color</h1>
+        </div>
+    </section>
+    <section id="page2">
+        <h1>Text Color</h1>
+        <ul>
+            <li>color: [color value]</li>
+            <li>Example: p { color: blue; } </li>
+        </ul>
+    </section>
+    <section id="page3">
+        <h1>Background Color</h1>
+        <ul>
+            <li>background-color: [color value]</li>
+            <li>Example: body { background-color: blue; } </li>
+        </ul>
+    </section>
+    <section id="page4">
+        <h1>Color Definitions</h1>
+        <ul>
+            <li>Color keyword. Example: <span class="salmon">blue, pink</span></li>
+            <li>Hex Value. Example: <span class="salmon">#ff0000</span></li>
+            <li>RGB Function. Example: <span class="salmon">rgb(255, 0, 0)</span></li>
+            <li>RGBA Function. Example: <span class="salmon">rgba(255, 0, 0, 1)</span></li>
+            <li>HSL Function. Example: <span class="salmon">hsl(0, 100%, 50%)</span></li>
+            <li>HSLA Function. Example: <span class="salmon">hsla(0, 100%, 50%, 1)</span></li>
+        </ul>
+    </section>
+    <section id="page5">
+        <h1>Keyword Value</h1>
+        <ul>
+            <li>Use color name</li>
+            <li>Case-Insensitive</li>
+            <li>
+                <span>Example:</span> 
+                <ul class="colors-example">
+                    <li>
+                        <span>color: blue;</span>
+                        <span class="color color-keyword-blue"></span>
+                    </li> 
+                    <li>
+                        <span>color: black;</span>
+                        <span class="color color-keyword-black"></span>
+                    </li>
+                    <li>
+                        <span>color: white;</span>
+                        <span class="color color-keyword-white"></span>
+                    </li>
+                </ul>
+            </li>
+            <li>See the supported color names @ <a href="https://www.w3schools.com/colors/colors_names.asp" target="_blank">https://www.w3schools.com/colors/colors_names.asp</a></li>
+        </ul>
+    </section>
+    <section id="page6">
+        <h1>Hex Value</h1>
+        <ul>
+            <li>
+                <span>Defined color in hexadecimal value in form</span>
+                <ul>
+                    <li>#rrggbb (rr: red, gg: green; bb: blue)</li>
+                </ul>
+            </li>
+            <li>Each rr, gg, and bb value can be between 00 and ff (0 to 255 in decimal)</li>
+            <li>
+                <span>Example:</span>
+                <ul class="colors-example">
+                    <li>
+                        <span>color: #0000ff</span>
+                        <span class="color color-hex-blue"></span>
+                    </li> 
+                    <li>
+                        <span>color: #000000</span>
+                        <span class="color color-hex-black"></span>
+                    </li>
+                    <li>
+                        <span>color: #ffffff</span>
+                        <span class="color color-hex-white"></span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    
+    <section id="page7">
+        <h1>Hex Value Shorthand</h1>
+        <ul>
+            <li>
+                If both characters in each hex color value are the same, we can just use one character to represent repeated value.
+            </li>
+            <li>
+                <span>Example:</span> 
+                <ul>
+                    <li>
+                        Instead of writing #ff0000, can use #f00
+                    </li>
+                    <li>
+                        Instead of writing #ff5533, can use #f53
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    
+    <section id="page8">
+        <h1>RGB Value</h1>
+        <ul>
+            <li>Formula: rgb(red, green, blue)</li>
+            <li>Each color value range from 0 to 255</li>
+            <li>
+                <span>Example:</span>
+                <ul class="colors-example">
+                    <li>
+                        <span>color: rgb(0, 0, 255)</span>
+                        <span class="color color-rgb-blue"></span>
+                    </li> 
+                    <li>
+                        <span>color: rgb(0, 0, 0)</span>
+                        <span class="color color-rgb-black"></span>
+                    </li>
+                    <li>
+                        <span>color: rgb(255, 255, 255)</span>
+                        <span class="color color-rgb-white"></span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    
+    <section id="page9">
+        <h1>RGBA Value</h1>
+        <ul>
+            <li>Extension of rgb with alpha channel (opacity)</li>
+            <li>Formula: rgba(red, green, blue, opacity)</li>
+            <li>
+                <span>Opacity range from 0 to 1</span>
+                <ul>
+                    <li>0 - fully transparent</li>
+                    <li>1 - not transparent / opaque </li>
+                </ul>
+            </li>
+            <li>
+                <span>Example:</span> 
+                <ul class="colors-example">
+                    <li>
+                        <span>Semi transparent => color: rgba(0, 0, 255, 0.5)</span>
+                        <span class="color color-rgba-semi-transparent"></span>
+                    </li>
+                    <li>
+                        <span>Fully transparent => color: rgba(0, 0, 255, 0)</span>
+                        <span class="color color-rgba-full-transparent"></span>
+                    </li>
+                    <li>
+                        <span>Not transparent => color: rgba(0, 0, 255, 1)</span>
+                        <span class="color color-rgba-not-transparent"></span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section id="page10">
+        <h1>HSL Value</h1>
+        <ul class="content-sm">
+            <li>Formula: hsl(hue, saturation, lightness)</li>
+            <li>
+                <span>Hue: Degree on color wheel from 0 to 360 degree.</span>
+                <ul>
+                    <li>red: 0, Green: 120, Blue: 240</li>
+                </ul>
+            </li>
+            <li>
+                <span>Saturation: Intensity of color in percentage</span>
+                <ul>
+                    <li>No color: 0%, Full Color: 100%</li>
+                </ul>
+            </li>
+            <li>
+                <span>Lightness: Light of the color in percentage</span>
+                <ul>
+                    <li>Black: 0%, Neutral: 50%, White: 100%</li>
+                </ul>
+            </li>
+            <li>
+                <span>Example:</span>
+                <ul class="colors-example">
+                    <li>
+                        <span>color: hsl(240, 100%, 50%)</span>
+                        <span class="color color-hsl-blue"></span>
+                    </li> 
+                    <li>
+                        <span>color: hsl(0, 0%, 0%)</span>
+                        <span class="color color-hsl-black"></span>
+                    </li>
+                    <li>
+                        <span>color: hsl(0, 0, 100%)</span>
+                        <span class="color color-hsl-white"></span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section id="page11">
+        <h1>HSLA Value</h1>
+        <ul>
+            <li>Extension of hsl with alpha channel (opacity)</li>
+            <li>Formula: hsla(hue, saturation, lightness, opacity)</li>
+            <li>
+                <span>Opacity range from 0 to 1</span>
+                <ul>
+                    <li>0 - fully transparent</li>
+                    <li>1 - not transparent / opaque </li>
+                </ul>
+            </li>
+            <li>
+                <span>Example:</span> 
+                <ul class="colors-example">
+                    <li>
+                        <span>Semi transparent => color: hsla(240, 100%, 50%, 0.5)</span>
+                        <span class="color color-hsla-semi-transparent"></span>
+                    </li>
+                    <li>
+                        <span>Fully transparent => color: hsla(240, 100%, 50%, 0)</span>
+                        <span class="color color-hsla-full-transparent"></span>
+                    </li>
+                    <li>
+                        <span>Not transparent => color: hsla(240, 100%, 50%, 1)</span>
+                        <span class="color color-hsla-not-transparent"></span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section id="page12" class="cover last">
+        <div class="content">
+            <h1>Thank you</h1>
+        </div>
+    </section>
+    
+    <nav>
+        <ul>
+            <li><a href="#page1">1</a></li>
+            <li><a href="#page2">2</a></li>
+            <li><a href="#page3">3</a></li>
+            <li><a href="#page4">4</a></li>
+            <li><a href="#page5">5</a></li>
+            <li><a href="#page6">6</a></li>
+            <li><a href="#page7">7</a></li>
+            <li><a href="#page8">8</a></li>
+            <li><a href="#page9">9</a></li>
+            <li><a href="#page10">10</a></li>
+            <li><a href="#page11">11</a></li>
+            <li><a href="#page12">12</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

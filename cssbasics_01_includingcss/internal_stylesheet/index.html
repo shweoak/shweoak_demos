@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>External Style Sheet</title>
+    
+  <!-- Include internal stylesheet with style tag -->
+  <!-- 
+    Most recommended place to write internal style sheet is in the <head> section.
+    This way style rules are ready when the elements are rendered by browser.
+    Otherwise, browser will have to rerender the elements to apply the styles.
+  -->
+
+  <style>
+    h1 {
+      color: gray;
+      font-weight: normal;
+    }
+
+    p {
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+  <h1>External Style Sheet</h1>
+  <p>
+    Paragraph 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a leo tristique, viverra massa sit amet, finibus lacus. Vivamus vel rhoncus lorem. Proin odio ligula, pretium eget porta sed, porttitor et odio.
+  </p>
+  
+  <p>
+    Paragraph 2: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a leo tristique, viverra massa sit amet, finibus lacus. Vivamus vel rhoncus lorem. Proin odio ligula, pretium eget porta sed, porttitor et odio.
+  </p>
+</body>
+</html>

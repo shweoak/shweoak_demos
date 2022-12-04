@@ -1,0 +1,201 @@
+/* style.css */
+html, body, section {
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #393939;
+    background: #EEEAE2;
+}
+
+section {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 54px;
+    padding: 40px 80px;
+    position: relative;
+    overflow: auto;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #D43526;
+    font-family: 'Arapey', serif;
+    font-size: 105px;
+    font-weight: 200;
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+h2 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    margin: 0;
+}
+
+.salmon {
+    color: #D43526;
+}
+
+.cover {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.cover h1 {
+    text-align: left;
+    padding: 0;
+    border: 0;
+}
+
+.cover.last h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-image: url('images/bullet.png');
+    line-height: 2;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section .content-sm {
+    font-size: 48px;
+    line-height: 1.8;
+}
+
+nav ul li a {
+    display: block;
+    
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    background: #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    
+    opacity: 0.25;
+}
+
+nav ul li a:hover {
+    opacity: 1;
+}
+
+.colors-example span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.colors-example .color {
+    border: 1px solid #999;
+    height: 54px;
+    width: 108px;
+    margin-left: 20px;
+}
+
+.color-keyword-blue {
+    background-color: blue;
+}
+
+.color-keyword-black {
+    background-color: black;
+}
+
+.color-keyword-white {
+    background-color: white;
+}
+
+.color-hex-blue {
+    background-color: #0000ff;
+}
+
+.color-hex-black {
+    background-color: #000000;
+}
+
+.color-hex-white {
+    background-color: #ffffff;
+}
+
+.color-rgb-blue {
+    background-color: rgb(0, 0, 255);
+}
+
+.color-rgb-black {
+    background-color: rgb(0, 0, 0);
+}
+
+.color-rgb-white {
+    background-color: rgb(255, 255, 255);
+}
+
+.color-rgba-semi-transparent {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+.color-rgba-full-transparent {
+    background-color: rgba(0, 0, 255, 0);
+}
+
+.color-rgba-not-transparent {
+    background-color: rgba(0, 0, 255, 1);
+}
+
+.color-hsl-blue {
+    background-color: hsl(240, 100%, 50%);
+}
+
+.color-hsl-black {
+    background-color: hsl(0, 0%, 0%);
+}
+
+.color-hsl-white {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.color-hsla-semi-transparent {
+    background-color: hsla(240, 100%, 50%, 0.5);
+}
+
+.color-hsla-full-transparent {
+    background-color: hsla(240, 100%, 50%, 0);
+}
+
+.color-hsla-not-transparent {
+    background-color: hsla(240, 100%, 50%, 1);
+}

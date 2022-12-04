@@ -1,0 +1,32 @@
+main {
+    margin: 0 auto;
+    width: 600px;
+}
+
+h1 {
+    color: darkorange;
+    /* List of font family name first, followed by generic family name 
+       Always provide the generic family name.
+    */
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    /* font: font-weight font-size/line-height font-family */
+    font: normal 32px/42px Helvetica, Arial, sans-serif;
+    text-shadow: 2px 1px 3px #ccc;
+}
+
+p {
+    text-align: justify;
+    line-height: 2;
+    font-size: 120%;
+    text-indent: 50px;
+}
+
+quote {
+    text-decoration: underline;
+    font-family: Courier, sans-serif;
+    font-style: italic;
+    direction: rtl;
+    letter-spacing: -2px;
+    text-transform: capitalize;
+}

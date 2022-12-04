@@ -1,0 +1,75 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    box-sizing: border-box;
+    height: calc(100% - 100px);
+    padding: 50px;
+    margin: 50px 0;
+    text-align: center;
+    font-size: 48px;
+    border: 10px solid #000;
+}
+
+.bgColor {
+    background-color: #ffffcc;
+}
+
+.bgImage {
+    background-image: url(images/light_bulbs.jpg);
+}
+
+.bgRepeatX {
+    background-repeat: repeat-x;
+}
+
+.bgRepeatY {
+    background-repeat: repeat-y;
+}
+
+.bgImage2 {
+    background-image: url(images/giuseppe_milo_17334298499_6cbdb40d67_o.jpg);
+    background-repeat: no-repeat; 
+}
+
+.bgPosition {
+    background-position: center center;
+}
+
+.bgAttachment {
+    background-attachment: fixed;
+}
+
+.bgImage3 {
+    background-image: url(images/lenny_k_photography_24435474119_12f72b9b97_o.jpg);
+   background-repeat: no-repeat; 
+   background-position: center center;
+}
+
+.bgSize {
+    background-size: 300px auto; 
+    background-size: 800px auto; 
+}
+
+.bgClip {
+    border: 10px dotted #000;
+    background-clip: content-box;
+    background-clip: padding-box;
+}
+
+.bgshorthand {
+    background: #ffffcc url(images/white-waves.png) center center repeat-x;
+}
+
+
+
+
+
+
+
+
+
+

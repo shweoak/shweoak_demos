@@ -1,0 +1,29 @@
+/* style.css */
+h1 {
+    color: orange;
+    font-weight: normal;
+}
+
+p {
+    /* 
+     * DO NOT USE !important unless it is absolutely necessary 
+     */
+    color: purple !important; 
+}
+
+/* ID selector rules trump class and tag selector rules */
+#item_2 {
+    color: aqua;
+}
+
+/* Class selector rules trump tag selector rules */
+.item {
+    color: darkred;
+}
+
+/* Tag selector is least specific */
+p {
+    color: darkslategray;
+    font-size: 20px;
+}
+

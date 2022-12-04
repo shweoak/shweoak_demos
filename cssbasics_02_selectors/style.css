@@ -1,0 +1,26 @@
+/* style.css */
+/* Element selector. 
+ * Write only tag name 
+ */
+h1 {
+    color: orange;
+    font-weight: normal;
+}
+
+p {
+    color: purple;
+}
+
+/* Class selector. 
+ * Always start with dot (.) notation followed by class name
+ */
+.item {
+    color: deeppink;
+}
+
+/* Id selector. 
+ * Always start with hash (#) notation followed by id name
+ */
+#item_4 {
+    color: aqua;
+}

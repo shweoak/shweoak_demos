@@ -1,0 +1,116 @@
+/** basic setups **/
+section {
+    padding: 20px;
+}
+
+.bg-1 {
+    background-color: aquamarine;
+}
+
+.bg-2 {
+    background-color: cornsilk;
+}
+
+p {
+    padding: 10px;
+    margin: 0;
+    line-height: normal;
+    width: 30%;
+}
+
+span, strong, a {
+    height: 80px;
+    width: 30%;
+}
+
+span {
+    background-color: darkgray;
+}
+
+strong {
+    background-color: cadetblue;
+}
+
+a {
+    background-color: burlywood;
+}
+
+h2 {
+    clear: both;
+}
+
+.para1 {
+    background-color: cornflowerblue;
+}
+
+.para2 {
+    color: #fff;
+    background-color: darkgoldenrod;
+}
+
+.para3 {
+    background-color: darkkhaki;
+}
+
+.para4 {
+    background-color: coral;
+}
+
+img {
+    height: auto;
+    width: 240px;
+}
+
+/* Positioning */
+span, strong, a {
+    display: inline-block;
+}
+
+.section-display p {
+    display: inline;
+}
+
+img {
+    float: right;
+}
+
+.section-float .para1 {
+    float: left;
+}
+
+.section-float .para2, .section-float .para3 {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.section-position {
+    position: relative;
+}
+
+.section-position .para1 {
+    position: absolute;
+    opacity: 0.8;
+    top: 10px;
+    right: 10px;
+}
+
+.section-position .para3 {
+    position: fixed;
+    top: 50px;
+    left: 100px;
+}
+
+.section-position .para4 {
+    position: sticky;
+    top: 10px;
+    left: 40px;
+}
+
+
+
+
+
+

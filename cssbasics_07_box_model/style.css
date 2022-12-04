@@ -1,0 +1,8 @@
+p {
+    margin: 50px;
+    border: 5px dotted #00ff00;
+    padding: 30px;
+    height: 120px;
+    width: 600px;
+    box-sizing: border-box;
+}
